@@ -1,21 +1,30 @@
+/* General page styles */
 body {
     background-color: lightblue;
     font-family: Arial, sans-serif;
     text-align: center;
 }
+
+/* Headings */
 h1 {
     color: navy;
     font-size: 36px;
 }
+
+/* Paragraphs */
 p {
     font-size: 18px;
     color: darkgreen;
     margin: 20px;
 }
+
+/* Images */
 img {
-    border: 2px solid black;
+    border: 2px solid darkgreen;
     border-radius: 10px;
 }
+
+/* Links */
 a {
     color: purple;
     text-decoration: none;
@@ -23,17 +32,15 @@ a {
 a:hover {
     color: red;
 }
+
+/* Buttons */
 button {
     background-color: navy;
-    color: black;
+    color: white; /* Changed for better contrast */
     padding: 10px 20px;
-    border: 2px solid black;
+    border: 2px solid darkgreen; /* Matches p and img */
     cursor: pointer;
 }
 button:hover {
     background-color: darkblue;
-}
-img {
-    border: 2px solid darkgreen;
-    border-radius: 10px;
 }

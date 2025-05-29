@@ -33,8 +33,12 @@ h1 {
 /* Paragraphs */
 body p {
     font-size: 18px;
-    color: black !important; /* Force black */
+    color: black !important;
     margin: 20px;
+}
+p.debug-black {
+    color: black !important;
+    background-color: yellow !important; /* Debug: Yellow background to confirm rule applies */
 }
 
 /* Images */

@@ -8,7 +8,7 @@ function changeImage() {
 }
 function toggleButtonColor() {
     let button = document.querySelector('button[onclick="toggleButtonColor()"]');
-    button.style.backgroundColor = button.style.backgroundColor === 'darkblue' ? 'navy' : 'darkblue';
+    button.style.backgroundColor = button.style.backgroundColor === 'darkblue' ? 'darkgreen' : 'darkblue';
 }
 function highlightNav() {
     let links = document.querySelectorAll('nav a');

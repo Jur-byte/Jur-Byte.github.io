@@ -12,3 +12,14 @@ p {
     color: darkgreen;
     margin: 20px;
 }
+img {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a {
+    color: purple;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}

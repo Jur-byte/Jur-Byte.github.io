@@ -1,14 +1,14 @@
-body {
-    background-color: red;
-    font-family: Arial, sans-serif;
-    text-align: center;
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
-h1 {
-    color: red;
-    font-size: 36px;
+button:hover {
+    background-color: darkblue;
 }
-p {
-    font-size: 18px;
-    color: darkgreen;
-    margin: 20px;
+img {
+    border: 2px solid darkgreen;
+    border-radius: 10px;
 }

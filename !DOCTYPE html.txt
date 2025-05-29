@@ -4,16 +4,7 @@
 <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>My First Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-        }
-        h1 {
-            color: navy;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Welcome to My Website!</h1>

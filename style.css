@@ -22,6 +22,7 @@ p {
 img {
     border: 2px solid darkgreen;
     border-radius: 10px;
+    transition: opacity 0.3s ease;
 }
 img:hover {
     opacity: 0.8;

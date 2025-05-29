@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    color: navy;
+    font-size: 36px;
+}
+p {
+    font-size: 18px;
+    color: darkgreen;
+    margin: 20px;
+}

@@ -33,7 +33,7 @@ h1 {
 /* Paragraphs */
 body p {
     font-size: 18px;
-    color: black !important; /* Increased specificity and force */
+    color: black !important; /* Force black */
     margin: 20px;
 }
 

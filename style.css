@@ -23,6 +23,9 @@ img {
     border: 2px solid darkgreen;
     border-radius: 10px;
 }
+img:hover {
+    opacity: 0.8;
+}
 
 /* Links */
 a {
@@ -43,4 +46,8 @@ button {
 }
 button:hover {
     background-color: darkblue;
+}
+ul {
+    list-style-type: square;
+    color: darkgreen;
 }

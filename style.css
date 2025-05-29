@@ -23,3 +23,17 @@ a {
 a:hover {
     color: red;
 }
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkblue;
+}
+img {
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+}

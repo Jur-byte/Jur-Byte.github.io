@@ -3,7 +3,7 @@ body {
     background-color: lightblue;
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 0; /* Ensures nav bar spans full width */
+    margin: 0;
 }
 
 /* Navigation bar */
@@ -11,6 +11,8 @@ nav.banner {
     background-color: navy;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
 }
 nav.banner a {
     color: white;

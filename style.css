@@ -13,6 +13,8 @@ nav.banner {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content: center;
 }
 nav.banner a {
     color: white;
@@ -32,11 +34,6 @@ h1 {
 
 /* Paragraphs */
 p {
-    font-size: 16px;
-    color: black;
-    margin: 20px;
-}
-p1 {
     font-size: 18px;
     color: darkgreen;
     margin: 20px;

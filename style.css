@@ -3,6 +3,23 @@ body {
     background-color: lightblue;
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0; /* Ensures nav bar spans full width */
+}
+
+/* Navigation bar */
+nav.banner {
+    background-color: navy;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+nav.banner a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+nav.banner a:hover {
+    color: lightblue;
 }
 
 /* Headings */
@@ -22,7 +39,6 @@ p {
 img {
     border: 2px solid darkgreen;
     border-radius: 10px;
-    transition: opacity 0.3s ease;
 }
 img:hover {
     opacity: 0.8;
@@ -48,17 +64,9 @@ button {
 button:hover {
     background-color: darkblue;
 }
+
+/* Lists */
 ul {
     list-style-type: square;
     color: darkgreen;
-}
-li {
-    margin: 10px 0;
-    font-weight: bold;
-}
-nav {
-    margin: 20px;
-}
-nav a {
-    margin: 0 10px;
 }

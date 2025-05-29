@@ -4,9 +4,13 @@ function changeText() {
 }
 function changeImage() {
     let img = document.querySelector('img');
-    img.src = img.src === 'https://picsum.photos/300/200' ? 'https://picsum.photos/300/201' : 'https://picsum.photos/300/200';
+    img.src = img.src.includes('200') ? 'https://picsum.photos/300/201' : 'https://picsum.photos/300/200';
 }
 function toggleButtonColor() {
     let button = document.querySelector('button[onclick="toggleButtonColor()"]');
     button.style.backgroundColor = button.style.backgroundColor === 'darkblue' ? 'navy' : 'darkblue';
+}
+function highlightNav() {
+    let links = document.querySelectorAll('nav a');
+    links.forEach(link => link.style.color = 'yellow');
 }

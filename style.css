@@ -31,9 +31,9 @@ h1 {
 }
 
 /* Paragraphs */
-p {
+body p {
     font-size: 18px;
-    color: black; /* Changed from darkgreen */
+    color: black !important; /* Increased specificity and force */
     margin: 20px;
 }
 

@@ -32,6 +32,11 @@ h1 {
 
 /* Paragraphs */
 p {
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+}
+p1 {
     font-size: 18px;
     color: darkgreen;
     margin: 20px;
